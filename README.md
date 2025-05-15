@@ -7,3 +7,7 @@ Tauras made the main design of the website and Jokubas made all of the JS code.
 Day 2:
 
 Jokubas changed CSS a little made it look better, organized the files, added comments, implimented search in biography page, fixed homepage buttons, added loading animation and it now gives an error when a superhero is not found.
+
+Day 3:
+
+In school Jokubas made a functional search bar.
