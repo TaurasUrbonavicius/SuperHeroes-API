@@ -10,4 +10,4 @@ Jokubas changed CSS a little made it look better, organized the files, added com
 
 Day 3:
 
-In school Jokubas made a functional search bar.
+Jokubas made a functional search bar with a dropdown if multiple heroes are found and fixed a couple of flaws.
