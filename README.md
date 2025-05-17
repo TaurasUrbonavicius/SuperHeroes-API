@@ -12,6 +12,6 @@ Day 3:
 
 Jokubas made a functional search bar with a dropdown if multiple heroes are found and fixed a couple of flaws.
 
-Day 4:
+Day 5:
 
 Jokubas redesigned the entire page, added a bunch of animations, fixed hero searching
