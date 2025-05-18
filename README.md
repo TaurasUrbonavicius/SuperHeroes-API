@@ -15,3 +15,7 @@ Jokubas made a functional search bar with a dropdown if multiple heroes are foun
 Day 5:
 
 Jokubas redesigned the entire page, added a bunch of animations, fixed hero searching
+
+Day 6:
+
+Jokubas added favorite heroes, fixed scaling
