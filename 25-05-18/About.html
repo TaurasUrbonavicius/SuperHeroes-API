@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperGuide Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="Images/icon.png">
+</head>
+<body>
+  
+  <!--Navbar-->
+  <div class="navBar">
+    <button id="SuperGuideBTN"class="navBarSuperguide">SUPERGUIDE</button>
+    <div class="navButtonDiv">
+      <button id="Home"class="navButton">Home</button>
+      <button id="Search"class="navButton">Search</button>
+      <button id="About"class="navButton currentPage">About</button>
+    </div>
+  </div>
+
+   <!--Middle part-->
+  <div id="middle" class="middle">
+
+    <div class="part1 slide-in-bottom">
+      <img src="Images/Superhero.png" class="backgroundImg1">
+      <div class="textBox ">
+        <h1 class="title align-left">Welcome to SuperGuide!</h1>
+        <h2 class="color-secondary align-left width-100">The Website with all you favourite super and non super heroes from across everywhere! It utilizes SuperHero API which you can find <a href="https://superheroapi.com/" class="highlight"target="_blank">here. </a> Search about your favorite super heroes and find out more about them! </h2>
+        <div class="heroSearchBtn">
+          <input type="input" id="heroSearch" autocomplete="off" class="inputbox" placeholder="Search Heroes!" name="name" />
+          <img src="Images/magnifyingGlass.png" class="searchIcon">
+          <div class="dropdowns" id="dropdowns1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="NavbarButtons.js"></script>
+  <script src="Search bar.js"></script>
+</body>
+</html>
