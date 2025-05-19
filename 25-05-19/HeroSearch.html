@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperGuide Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--For a star icon-->
+</head>
+<body>
+
+  <!--Navbar-->
+  <div class="navBar">
+    <button id="SuperGuideBTN"class="navBarSuperguide">SUPERGUIDE</button>
+    <div class="navButtonDiv">
+      <button id="Home"class="navButton">Home</button>
+      <button id="Search"class="navButton currentPage">Search</button>
+      <button id="News"class="navButton">News</button>
+    </div>
+  </div>
+
+   <!--Middle part-->
+  <div class="middle" id="middle">
+
+    <div class="part2 slide-in-bottom">
+      <div class="textBox2 align-center">
+        <h1 class="title align-center">Compare your Superheroes!</h1>
+        <h2 class="padding-bottom-100 color-secondary align-center width-100">Search for your favorite heroes and compare their powes, abilities, and attributes side by side. </h2>
+
+        <div class="heroSearchBtn align-center offcenter">
+          <input type="input" id="heroSearch" autocomplete="off" class="inputbox" placeholder="Search Heroes!" name="name" />
+          <img src="Images/magnifyingGlass.png" class="searchIcon">
+          <div class="dropdowns" id="dropdowns1"></div>
+        </div>
+        <button id="random" class="random">Random Hero</button>
+      </div>
+        <div class="line"></div>
+
+      <img id="loadingIcon"src="Images/loading.png" class="rotate-center loadingImg hidden">
+      <div id="card1" class="card hidden" name="">
+        <button class="star"id="star1">&#9734;</button>
+        <img src="" id="picture1" class="cardPicture">
+        <h5 id="comics1" class="comics">Marvel Comics</h5>
+        <h3 id="name1" class="name1">Hero name</h3>
+        <h4 id="realName1" class="realName1">Real name</h4>
+  
+        <div class="statsBackground">
+          <h4 class="StatName">Intelligence</h4>
+          <h4 class="Stat" id="amountIntel1">0</h4>
+          <div class="stats purple" id="statsIntel1"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Power</h4>
+          <h4 class="Stat"id="amountPower1">0</h4>
+          <div class="stats red"id="statsPower1"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Defense</h4>
+          <h4 class="Stat"id="amountDefense1">0</h4>
+          <div class="stats yellow"id="statsDefense1"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Speed</h4>
+          <h4 class="Stat"id="amountSpeed1">0</h4>
+          <div class="stats green"id="statsSpeed1"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Combat</h4>
+          <h4 class="Stat"id="amountCombat1">0</h4>
+          <div class="stats orange"id="statsCombat1"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Strength</h4>
+          <h4 class="Stat"id="amountStrength1">0</h4>
+          <div class="stats blue"id="statsStrength1"></div>
+        </div>
+      </div>
+      
+      <div id="card2" class="card hidden" name="">
+        <button class="star" id="star2">&#9734;</button>
+        <img src="" id="picture2" class="cardPicture">
+        <h5 id="comics2" class="comics">Marvel Comics</h5>
+        <h3 id="name2" class="name1">Hero name</h3>
+        <h4 id="realName2" class="realName1">Real name</h4>
+  
+        <div class="statsBackground">
+          <h4 class="StatName">Intelligence</h4>
+          <h4 class="Stat" id="amountIntel2">0</h4>
+          <div class="stats purple" id="statsIntel2"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Power</h4>
+          <h4 class="Stat"id="amountPower2">0</h4>
+          <div class="stats red"id="statsPower2"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Defense</h4>
+          <h4 class="Stat"id="amountDefense2">0</h4>
+          <div class="stats yellow"id="statsDefense2"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Speed</h4>
+          <h4 class="Stat"id="amountSpeed2">0</h4>
+          <div class="stats green"id="statsSpeed2"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Combat</h4>
+          <h4 class="Stat"id="amountCombat2">0</h4>
+          <div class="stats orange"id="statsCombat2"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Strength</h4>
+          <h4 class="Stat"id="amountStrength2">0</h4>
+          <div class="stats blue"id="statsStrength2"></div>
+        </div>
+      </div>
+
+      <div id="card3" class="card hidden"name="">
+        <button class="star"id="star3">&#9734;</button>
+        <img src="" id="picture3" class="cardPicture">
+        <h5 id="comics3" class="comics">Marvel Comics</h5>
+        <h3 id="name3" class="name1">Hero name</h3>
+        <h4 id="realName3" class="realName1">Real name</h4>
+  
+        <div class="statsBackground">
+          <h4 class="StatName">Intelligence</h4>
+          <h4 class="Stat" id="amountIntel3">0</h4>
+          <div class="stats purple" id="statsIntel3"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Power</h4>
+          <h4 class="Stat"id="amountPower3">0</h4>
+          <div class="stats red"id="statsPower3"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Defense</h4>
+          <h4 class="Stat"id="amountDefense3">0</h4>
+          <div class="stats yellow"id="statsDefense3"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Speed</h4>
+          <h4 class="Stat"id="amountSpeed3">0</h4>
+          <div class="stats green"id="statsSpeed3"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Combat</h4>
+          <h4 class="Stat"id="amountCombat3">0</h4>
+          <div class="stats orange"id="statsCombat3"></div>
+        </div>
+
+        <div class="statsBackground">
+          <h4 class="StatName">Strength</h4>
+          <h4 class="Stat"id="amountStrength3">0</h4>
+          <div class="stats blue"id="statsStrength3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="NavbarButtons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
