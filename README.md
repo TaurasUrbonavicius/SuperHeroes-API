@@ -20,3 +20,4 @@ Jokubas fixed a bug with favorite heroes, added "News" page, added hero stats
 
 Day 8:
 Tauras Tweaked the nav bar slightly
+Jokubas added card animation and made if stats are not found to display 0 instead of null
