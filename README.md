@@ -17,3 +17,6 @@ Jokubas added favorite heroes, fixed scaling
 
 Day 7:
 Jokubas fixed a bug with favorite heroes, added "News" page, added hero stats
+
+Day 8:
+Tauras Tweaked the nav bar slightly
